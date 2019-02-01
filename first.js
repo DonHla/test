@@ -1,4 +1,7 @@
 'use strict'
+// обозначение нового стандарта 
+// не будут работать ошибочные строчки
+// которые работали, при старом стандарте
 
 a = 5;
 console.log(a); 
@@ -14,19 +17,19 @@ var leftBorderWidth = 1;
 const pi= 3.14; // 
 console.log(second);
 */
-/*
-var number = 5;
-var string = "Hello!";
-var sym = Symbol();
-var boolean = true;
-null; // чего-то в коде вообще не существует
-// при попытке вывести что-то (отдельный тип данных)
+ 
+ var number = 5;
+ var string = "Hello!";
+ var sym = Symbol();
+ var boolean = true;
+ null; // чего-то в коде вообще не существует
+ //при попытке вывести что-то (отдельный тип данных)
 undefined; // объект(переменная) уже существует, но значения никакого не имеет
 var obj ={};
 
 console.log(4/0); // infinity числовые значения
 console.log('string'*9); // Nan (not a number)
-*/
+
 //console.log(something); // null- ссылка на несуществующую вещь
 /*
 let something1;
@@ -79,3 +82,4 @@ let isChecked = true,
     isClose = false;
 
 console.log(!isChecked||isClose);
+// система контроля версий
